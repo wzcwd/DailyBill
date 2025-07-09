@@ -1,12 +1,57 @@
-# React + Vite
+# DailyBill
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A lightweight, mobile-first personal finance tracker built with **React 18** and **Vite**.  Record every expense or income on the go and instantly get clear monthly and yearly statistics.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+• **Add bills in seconds** – choose _Expense_ or _Income_, pick a category icon, set the date & amount, hit **Save**.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+• **Monthly overview** – see total Expense, Income and Balance for the selected month, with a collapsible day-by-day breakdown.
+
+• **Yearly overview** – scroll through each month’s summary and compare spending trends across the whole year.
+
+• **Responsive mobile UI** – powered by [Ant Design Mobile](https://mobile.ant.design/).
+
+• **State management with Redux Toolkit** – predictable, performant global state.
+
+• **Mock REST API** – powered by `json-server`; swap in your real backend at any time.
+
+---
+
+## 📸 Screenshots
+
+| Month View | Add Bill | Year View |
+|:--:|:--:|:--:|
+| ![](demo/demo1.png) | ![](demo/demo2.png) | ![](demo/demo3.png) |
+
+---
+
+## 🚀 Quick Start
+1. **Start the mock API** (serves the data in `data.json`)
+
+   ```bash
+   npm run mock
+   ```
+
+2. **Run the dev server**
+
+   ```bash
+   npm run dev
+   ```
+
+3. Open the app in your browser → record your first bill!
+
+## Tech Stack
+
+- **React 18** + **Vite 7** – lightning-fast dev experience
+- **Ant Design Mobile 5** – polished mobile components
+- **Redux Toolkit** & **React-Redux** – global state management
+- **React Router DOM 7** – client-side routing
+- **Axios** – HTTP requests
+- **Lodash** – utility helpers
+- **SCSS** – modular styles
+
+
+
