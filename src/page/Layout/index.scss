@@ -1,0 +1,13 @@
+.layout {
+  .container {
+    position: fixed;
+    top: 0;
+    bottom: 50px;
+    width: 100%;
+  }
+  .footer {
+    position: fixed;   // 固定定位，不随页面滚动变化
+    bottom: 0; // 距离窗口底部为 0，即贴紧浏览器底部
+    width: 100%; // 宽度撑满整个视口宽度
+  }
+}
