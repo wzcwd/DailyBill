@@ -8,7 +8,7 @@ import {fetchBillList} from "@/store/modules/billStore.js";
 
 export const useBillList = () => {
     const dispatch = useDispatch()
-    const { billList } = useSelector(state => state.ka)
+    const { billList } = useSelector(state => state.bill)
 
     useEffect(() => {
         dispatch(fetchBillList())
