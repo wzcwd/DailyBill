@@ -4,7 +4,7 @@ A lightweight, mobile-first personal finance tracker built with **React 18** and
 
 ---
 
-## ✨ Features
+## Features
 
 • **Add bills in seconds** – choose _Expense_ or _Income_, pick a category icon, set the date & amount, hit **Save**.
 
@@ -20,7 +20,7 @@ A lightweight, mobile-first personal finance tracker built with **React 18** and
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 | Month View | Add Bill | Year View |
 |:--:|:--:|:--:|
@@ -28,7 +28,7 @@ A lightweight, mobile-first personal finance tracker built with **React 18** and
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 1. **Start the mock API** (serves the data in `data.json`)
 
    ```bash
